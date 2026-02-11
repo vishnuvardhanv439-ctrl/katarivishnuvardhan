@@ -33,9 +33,25 @@ nav {
   display: none;
   color: white;
 }
+.menu-bar::before {
+  content: "☰";
+  font-size: 20px;
+}
+
+.menu-bar.active::before {
+  content: "✕";
+}
 .menu-links {
   display: flex;
 }
+.menu-links ul {
+  display: none;
+}
+
+.menu-links ul.open {
+  display: flex;
+}
+
 ul {
   display: flex;
   padding: 8px 16px;
@@ -103,6 +119,10 @@ ul {
 /* ------------------- resposive mobile -------------------- */
 
 @media (min-width: 320px) and (max-width: 599px) {
+  nav {
+    position: sticky;
+    top: 30px;
+  }
   .NavBar {
     margin: 0 20px;
     padding: 10px 10px;
@@ -131,6 +151,15 @@ ul {
     padding: 12px 0;
     width: 100%;
     border-bottom: 1px solid rgb(60, 60, 60);
+  }
+}
+
+/* Force desktop menu visible */
+@media (min-width: 1281px) {
+  .menu-links ul {
+    display: flex !important;
+    position: static;
+    flex-direction: row;
   }
 }
 
