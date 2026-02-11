@@ -572,7 +572,6 @@ ul {
 @media (min-width: 501px) and (max-width: 1080px) {
   .My-Work-Container {
     padding: 120px 50px;
-    background-color: #3f5efb;
   }
   .Header h3 {
     font-family: "Playfair Display", serif;
@@ -638,7 +637,6 @@ ul {
 @media (min-width: 320px) and (max-width: 500px) {
   .My-Work-Container {
     padding: 80px 20px;
-    background-color: #3f5efb;
   }
   .Header h3 {
     font-family: "Playfair Display", serif;
