@@ -270,7 +270,7 @@ ul {
   }
   .heading-section h1 {
     font-size: 18px;
-    line-height: 28px;
+    line-height: 26px;
   }
   .heading-section p {
     font-size: 14px;
@@ -409,7 +409,8 @@ ul {
   .card-item p {
     font-family: "Fredoka", sans-serif;
     font-size: 16px;
-    line-height: 24px;
+    font-weight: 300;
+    line-height: 22px;
   }
 }
 
@@ -703,7 +704,7 @@ ul {
     left: 0px;
     font-family: "Fredoka", sans-serif;
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 18px;
   }
 
@@ -724,7 +725,6 @@ ul {
   font-weight: 300;
   line-height: 46px;
   padding-right: 320px;
-  background-color: #142164;
 }
 /* ---------- Tablet resposive ---------- */
 
