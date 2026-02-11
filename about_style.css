@@ -84,7 +84,7 @@ ul {
   color: black;
 }
 /* ------------------- resposive Tablet -------------------- */
-@media (min-width: 600px) and (max-width: 1280px) {
+@media (min-width: 501px) and (max-width: 1080px) {
   .NavBar {
     margin: 0 50px;
     padding: 16px 20px;
@@ -117,7 +117,7 @@ ul {
 
 /* ------------------- resposive mobile -------------------- */
 
-@media (min-width: 320px) and (max-width: 599px) {
+@media (min-width: 320px) and (max-width: 500px) {
   nav {
     position: sticky;
     top: 30px;
@@ -149,12 +149,11 @@ ul {
   .menu-links li {
     padding: 12px 0;
     width: 100%;
-    border-bottom: 1px solid rgb(60, 60, 60);
   }
 }
 
 /* Force desktop menu visible */
-@media (min-width: 1281px) {
+@media (min-width: 1080px) {
   .menu-links ul {
     display: flex !important;
     position: static;
@@ -174,7 +173,7 @@ ul {
 .left {
   width: auto;
   margin: 50px 0;
-  padding-right: 50px;
+  padding-right: 30px;
 }
 .right {
   width: auto;
@@ -186,23 +185,23 @@ ul {
 }
 .left h1 {
   font-family: "Playfair Display", serif;
-  font-size: 28px;
+  font-size: 32px;
   line-height: 38px;
   font-weight: 300;
   color: white;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .left p {
   color: #959696;
   font-family: "Fredoka", sans-serif;
   font-size: 18px;
   line-height: 24px;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 /* ---------- Tablet resposive ---------- */
 
-@media (min-width: 600px) and (max-width: 1280px) {
+@media (min-width: 501px) and (max-width: 1080px) {
   .main-container {
     flex-direction: column;
     align-items: flex-start;
@@ -215,19 +214,19 @@ ul {
     font-family: "Playfair Display", serif;
     font-size: 24px;
     line-height: 24px;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
   .left p {
     font-family: "Fredoka", sans-serif;
     font-size: 16px;
-    line-height: 22px;
-    font-weight: 200;
+    line-height: 24px;
+    font-weight: 300;
   }
 }
 
 /* ---------- Mobile resposive ---------- */
 
-@media (min-width: 320px) and (max-width: 599px) {
+@media (min-width: 320px) and (max-width: 500px) {
   .main-container {
     flex-direction: column;
     align-items: flex-start;
@@ -239,7 +238,7 @@ ul {
 
   .left h1 {
     font-family: "Playfair Display", serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     padding-bottom: 20px;
   }
@@ -255,20 +254,18 @@ ul {
 
 .experience-container {
   height: auto;
-  margin: 100px 0;
+  padding: 100px;
 }
 .experience-container h1 {
-  margin: 0 100px;
   padding: 30px 0;
   font-family: "Playfair Display", serif;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 300;
   color: white;
 }
 
 .work-item-container {
   display: flex;
-  margin: 0 100px;
   padding: 20px 0;
   transition:
     transform 0.6s ease,
@@ -296,36 +293,36 @@ ul {
 .dates h3 {
   width: 200px;
   font-family: "Fredoka", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
   color: #959696;
-  padding-bottom: 16px;
 }
 
 .dates p {
   width: 350px;
   font-family: "Playfair Display", serif;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
   color: white;
 }
 
 /* ---------- Tablet resposive ---------- */
 
-@media (min-width: 600px) and (max-width: 1280px) {
+@media (min-width: 501px) and (max-width: 1080px) {
   .experience-container {
     height: auto;
-    margin: 50px 0;
+    padding: 0 50px;
   }
   .experience-container h1 {
-    margin: 0 50px;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 300;
   }
   .work-item-container p {
     font-size: 16px;
     line-height: 22px;
   }
   .work-item-container {
-    margin: 0 50px;
     display: flex;
   }
   .dates {
@@ -336,46 +333,48 @@ ul {
     font-weight: 400;
     font-size: 18px;
     width: 140px;
+    padding-bottom: 10px;
   }
   .dates p {
-    font-size: 16px;
+    font-size: 18px;
     width: 270px;
   }
 }
 
 /* ---------- Mobile resposive ---------- */
 
-@media (min-width: 320px) and (max-width: 599px) {
+@media (min-width: 320px) and (max-width: 500px) {
   .experience-container {
     height: auto;
-    margin: 50px 0;
+    padding: 0 20px;
   }
   .experience-container h1 {
-    margin: 0 20px;
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 300;
   }
-  .work-item-container {
-    margin: 0 20px;
-    display: flex;
-    flex-direction: column;
-  }
-
   .work-item-container p {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 18px;
+  }
+  .work-item-container {
+    display: flex;
+    flex-direction: column;
   }
   .dates {
     display: flex;
     flex-direction: column;
   }
   .dates h3 {
-    font-size: 14px;
     font-weight: 400;
+    font-size: 16px;
     width: 140px;
-    padding-bottom: 4px;
+    padding-bottom: 10px;
   }
   .dates p {
     font-size: 16px;
-    padding-bottom: 10px;
+    width: 270px;
+    padding-bottom: 16px;
   }
 }
 
@@ -431,7 +430,7 @@ ul {
 
 /* ---------- Tablet resposive ---------- */
 
-@media (min-width: 600px) and (max-width: 1280px) {
+@media (min-width: 501px) and (max-width: 1080px) {
   .Footer-container {
     margin: 100px 50px;
   }
@@ -442,7 +441,7 @@ ul {
 }
 /* ---------- Mobile resposive ---------- */
 
-@media (min-width: 320px) and (max-width: 599px) {
+@media (min-width: 320px) and (max-width: 500px) {
   .Footer-container {
     display: flex;
     flex-direction: column;

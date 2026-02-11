@@ -85,7 +85,7 @@ ul {
   color: black;
 }
 /* ------------------- resposive Tablet -------------------- */
-@media (min-width: 600px) and (max-width: 1280px) {
+@media (min-width: 501px) and (max-width: 1080px) {
   .NavBar {
     margin: 0 50px;
     padding: 16px 20px;
@@ -118,7 +118,7 @@ ul {
 
 /* ------------------- resposive mobile -------------------- */
 
-@media (min-width: 320px) and (max-width: 599px) {
+@media (min-width: 320px) and (max-width: 500px) {
   nav {
     position: sticky;
     top: 30px;
@@ -150,12 +150,11 @@ ul {
   .menu-links li {
     padding: 12px 0;
     width: 100%;
-    border-bottom: 1px solid rgb(60, 60, 60);
   }
 }
 
 /* Force desktop menu visible */
-@media (min-width: 1281px) {
+@media (min-width: 1080px) {
   .menu-links ul {
     display: flex !important;
     position: static;
@@ -170,8 +169,9 @@ ul {
 
 .gallery-container h1 {
   font-family: "Playfair Display", serif;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 38px;
   color: white;
   padding-bottom: 30px;
 }
@@ -214,9 +214,16 @@ ul {
 }
 
 /* ------------------- resposive Tablet -------------------- */
-@media (min-width: 600px) and (max-width: 1280px) {
+@media (min-width: 501px) and (max-width: 1080px) {
   .gallery-container {
     margin: 100px 50px;
+  }
+  .gallery-container h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    line-height: 24px;
+    color: white;
+    padding-bottom: 20px;
   }
   .design-card-container {
     display: grid;
@@ -227,9 +234,22 @@ ul {
 
 /* ------------------- resposive mobile -------------------- */
 
-@media (min-width: 320px) and (max-width: 599px) {
+@media (min-width: 320px) and (max-width: 500px) {
   .gallery-container {
-    margin: 100px 20px;
+    margin: 80px 20px;
+  }
+
+  .gallery-container h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    padding-bottom: 20px;
+  }
+  .design-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
   }
 }
 /* ------------------- Gallery videos -------------------- */
@@ -239,8 +259,9 @@ ul {
 }
 .video-section h2 {
   font-family: "Playfair Display", serif;
-  font-size: 24px;
-  line-height: 36px;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 38px;
   color: white;
   padding-bottom: 20px;
 }
@@ -266,22 +287,33 @@ ul {
 }
 
 /* ------------------- resposive Tablet -------------------- */
-@media (min-width: 600px) and (max-width: 1280px) {
+@media (min-width: 501px) and (max-width: 1080px) {
   .video-section {
     margin: 100px 50px;
   }
+  .video-section h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    line-height: 36px;
+  }
 }
-
 /* ------------------- resposive mobile -------------------- */
 
-@media (min-width: 320px) and (max-width: 599px) {
+@media (min-width: 320px) and (max-width: 500px) {
   .video-section {
-    margin: 100px 20px;
+    margin: 80px 20px;
+  }
+  .video-section h2 {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    line-height: 30px;
+    padding-bottom: 20px;
   }
   .video-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 24px;
+    cursor: pointer;
   }
 }
 /* ------------------- Footer -------------------- */
@@ -336,7 +368,7 @@ ul {
 
 /* ---------- Tablet resposive ---------- */
 
-@media (min-width: 600px) and (max-width: 1280px) {
+@media (min-width: 501px) and (max-width: 1080px) {
   .Footer-container {
     margin: 100px 50px;
   }
@@ -347,7 +379,7 @@ ul {
 }
 /* ---------- Mobile resposive ---------- */
 
-@media (min-width: 320px) and (max-width: 599px) {
+@media (min-width: 320px) and (max-width: 500px) {
   .Footer-container {
     display: flex;
     flex-direction: column;
