@@ -252,6 +252,7 @@ ul {
 @media (min-width: 320px) and (max-width: 500px) {
   .hero-container {
     height: auto;
+    margin-top: 40px;
     padding: 80px 20px;
   }
 
@@ -283,7 +284,7 @@ ul {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 40px;
-  padding: 150px 100px;
+  padding: 100px;
 }
 .head-section {
   padding-right: 10px;
@@ -320,7 +321,7 @@ ul {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 16px;
+  padding: 50px 24px;
 }
 .card-item h3 {
   font-family: "Playfair Display", serif;
@@ -341,7 +342,7 @@ ul {
   .Services-container {
     grid-template-columns: 1fr;
     gap: 40px;
-    padding: 120px 50px;
+    padding: 100px 50px;
   }
   .head-section {
     padding-right: 100px;
@@ -380,7 +381,7 @@ ul {
   .Services-container {
     grid-template-columns: 1fr;
     gap: 40px;
-    padding: 80px 20px;
+    padding: 50px 20px;
   }
   .head-section {
     padding-right: 50px;
@@ -417,7 +418,7 @@ ul {
 /* ------------------- My WORK -------------------- */
 
 .My-Work-Container {
-  padding: 150px 100px;
+  padding: 100px;
 }
 
 .Header h3 {
@@ -572,7 +573,7 @@ ul {
 
 @media (min-width: 501px) and (max-width: 1080px) {
   .My-Work-Container {
-    padding: 120px 50px;
+    padding: 100px 50px;
   }
   .Header h3 {
     font-family: "Playfair Display", serif;
@@ -604,7 +605,7 @@ ul {
   .Item-Info span {
     position: absolute;
     top: 40px;
-    left: 30px;
+    left: 20px;
     padding: 8px 24px;
     background-color: white;
     color: black;
@@ -620,6 +621,7 @@ ul {
     font-family: "Playfair Display", serif;
     font-size: 24px;
     font-weight: 300;
+    padding: 0 20px;
   }
 
   .Item-Info p {
@@ -630,6 +632,7 @@ ul {
     font-size: 16px;
     font-weight: 300;
     line-height: 20px;
+    padding: 0 20px;
   }
 }
 
@@ -637,7 +640,7 @@ ul {
 
 @media (min-width: 320px) and (max-width: 500px) {
   .My-Work-Container {
-    padding: 80px 20px;
+    padding: 50px 20px;
   }
   .Header h3 {
     font-family: "Playfair Display", serif;
@@ -691,11 +694,12 @@ ul {
 
   .Item-Info h3 {
     position: absolute;
-    bottom: 100px;
+    bottom: 80px;
     left: 0px;
     font-family: "Playfair Display", serif;
     font-size: 20px;
     font-weight: 300;
+    padding: 0 20px;
   }
 
   .Item-Info p {
@@ -706,6 +710,7 @@ ul {
     font-size: 14px;
     font-weight: 400;
     line-height: 18px;
+    padding: 0 20px;
   }
 
   /* mobile-friendly hover (tap) */
@@ -717,24 +722,22 @@ ul {
 /* -------------------Quote -------------------- */
 
 .quote h1 {
-  padding: 250px 100px;
+  padding: 100px 350px 200px 100px;
   height: auto;
   color: white;
   font-family: "Playfair Display", serif;
   font-size: 32px;
   font-weight: 300;
   line-height: 46px;
-  padding-right: 320px;
 }
 /* ---------- Tablet resposive ---------- */
 
 @media (min-width: 501px) and (max-width: 1080px) {
   .quote h1 {
+    padding: 50px 120px 150px 50px;
     font-size: 24px;
     font-family: "Playfair Display", serif;
     line-height: 36px;
-    padding: 120px 50px;
-    padding-right: 130px;
   }
 }
 
@@ -744,8 +747,8 @@ ul {
   .quote h1 {
     font-size: 20px;
     font-family: "Playfair Display", serif;
-    line-height: 32px;
-    padding: 80px 20px;
+    line-height: 30px;
+    padding: 50px 20px 100px 20px;
   }
 }
 /* ------------------- Footer -------------------- */
@@ -802,7 +805,7 @@ ul {
 
 @media (min-width: 501px) and (max-width: 1080px) {
   .Footer-container {
-    margin: 120px 50px;
+    margin: 0 50px;
   }
 }
 /* ---------- Mobile resposive ---------- */
