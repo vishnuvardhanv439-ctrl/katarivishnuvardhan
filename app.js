@@ -77,6 +77,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
+// ================= Video Controls =================
+
+const video = document.getElementById("portfolioVideo");
+video.addEventListener("contextmenu", (e) => e.preventDefault());
+
 // ================= Scroll Reveal Animation =================
 
 document.addEventListener("DOMContentLoaded", () => {
