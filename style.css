@@ -203,7 +203,7 @@ ul {
 .heading-section h1 {
   font-family: "Playfair Display", serif;
   font-size: 32px;
-  line-height: 46px;
+  line-height: 48px;
   font-weight: 400;
   text-align: center;
   margin-bottom: 24px;
@@ -212,7 +212,7 @@ ul {
 .heading-section p {
   font-family: "Fredoka", sans-serif;
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 26px;
   color: #b6b6b6;
@@ -244,7 +244,7 @@ ul {
     line-height: 34px;
   }
   .heading-section p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
   }
 }
@@ -268,11 +268,11 @@ ul {
   .heading-section {
     display: flex;
     flex-direction: column;
-    padding: 0 30px;
+    padding: 0 20px;
   }
   .heading-section h1 {
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 20px;
+    line-height: 28px;
   }
   .heading-section p {
     font-size: 14px;
@@ -296,7 +296,7 @@ ul {
   font-family: "Playfair Display", serif;
   font-size: 24px;
   line-height: 30px;
-  font-weight: 200;
+  font-weight: 300;
   padding-bottom: 40px;
 }
 .head-section a {
@@ -351,10 +351,10 @@ ul {
     padding-bottom: 30px;
   }
   .head-section h3 {
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 300;
-    line-height: 28px;
-    padding-bottom: 30px;
+    line-height: 32px;
+    padding-bottom: 40px;
   }
   .head-section a {
     font-family: "Fredoka", sans-serif;
@@ -370,12 +370,12 @@ ul {
   }
   .card-item h3 {
     font-family: "Playfair Display", serif;
-    font-size: 20px;
+    font-size: 24px;
   }
   .card-item p {
     font-family: "Fredoka", sans-serif;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 24px;
   }
 }
 /* ------------------- resposive mobile -------------------- */
@@ -387,11 +387,11 @@ ul {
     padding: 50px 20px;
   }
   .head-section {
-    padding-right: 50px;
+    padding-right: 20px;
     padding-bottom: 30px;
   }
   .head-section h3 {
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     padding-bottom: 30px;
   }
@@ -427,14 +427,15 @@ ul {
 
 .Header h3 {
   font-family: "Playfair Display", serif;
-  font-size: 32px;
+  font-size: 24px;
+  font-weight: 300;
   padding-bottom: 8px;
   color: white;
 }
 .Header p {
   font-family: "Fredoka", sans-serif;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 300;
   color: #3bc1a8;
   margin-bottom: 50px;
 }
@@ -529,6 +530,7 @@ ul {
   left: 0px;
   font-family: "Playfair Display", serif;
   font-size: 24px;
+  font-weight: 300;
   padding: 0 30px;
 }
 
@@ -582,15 +584,17 @@ ul {
   .Header h3 {
     font-family: "Playfair Display", serif;
     font-size: 24px;
-    padding-bottom: 8px;
+    line-height: 28px;
+    font-weight: 300;
+    padding-bottom: 16px;
     color: white;
   }
   .Header p {
     font-family: "Fredoka", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 300;
     color: #3bc1a8;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 
   .Item-Container {
@@ -623,7 +627,7 @@ ul {
     bottom: 120px;
     left: 20px;
     font-family: "Playfair Display", serif;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 300;
     padding: 0 20px 0 0;
   }
@@ -633,7 +637,7 @@ ul {
     bottom: 40px;
     left: 20px;
     font-family: "Fredoka", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 300;
     line-height: 20px;
     padding: 0 20px 0 0;
@@ -648,7 +652,7 @@ ul {
   }
   .Header h3 {
     font-family: "Playfair Display", serif;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     padding-bottom: 8px;
     color: white;
@@ -730,9 +734,9 @@ ul {
   height: auto;
   color: white;
   font-family: "Playfair Display", serif;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 300;
-  line-height: 46px;
+  line-height: 36px;
 }
 /* ---------- Tablet resposive ---------- */
 
@@ -779,14 +783,14 @@ ul {
 }
 .footer-item p {
   font-family: "Fredoka", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #3bc1a8;
   font-weight: 400;
   margin-bottom: 10px;
 }
 .footer-item h4 {
   font-family: "Playfair Display", serif;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   font-weight: 400;
   margin-bottom: 10px;

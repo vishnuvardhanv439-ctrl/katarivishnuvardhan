@@ -214,13 +214,13 @@ ul {
     font-family: "Playfair Display", serif;
     font-size: 24px;
     line-height: 24px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
   }
   .left p {
     font-family: "Fredoka", sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
-    font-weight: 300;
+    font-weight: 400;
   }
 }
 
@@ -238,14 +238,14 @@ ul {
 
   .left h1 {
     font-family: "Playfair Display", serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     padding-bottom: 20px;
   }
   .left p {
     font-family: "Fredoka", sans-serif;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 20px;
     font-weight: 400;
   }
 }
@@ -311,7 +311,7 @@ ul {
 @media (min-width: 501px) and (max-width: 1080px) {
   .experience-container {
     height: auto;
-    padding: 0 50px;
+    padding: 50px;
   }
   .experience-container h1 {
     font-family: "Playfair Display", serif;
@@ -319,8 +319,9 @@ ul {
     font-weight: 300;
   }
   .work-item-container p {
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
   }
   .work-item-container {
     display: flex;
@@ -350,7 +351,7 @@ ul {
   }
   .experience-container h1 {
     font-family: "Playfair Display", serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     font-weight: 300;
     padding: 16px 0;
@@ -358,7 +359,7 @@ ul {
   .work-item-container p {
     font-size: 14px;
     font-weight: 400;
-    line-height: 18px;
+    line-height: 20px;
   }
   .work-item-container {
     display: flex;
@@ -405,14 +406,14 @@ ul {
 }
 .footer-item p {
   font-family: "Fredoka", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #3bc1a8;
   font-weight: 400;
   margin-bottom: 10px;
 }
 .footer-item h4 {
   font-family: "Playfair Display", serif;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   font-weight: 400;
   margin-bottom: 10px;

@@ -223,7 +223,7 @@ ul {
     font-size: 24px;
     line-height: 24px;
     color: white;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
   .design-card-container {
     display: grid;
@@ -241,10 +241,10 @@ ul {
 
   .gallery-container h1 {
     font-family: "Playfair Display", serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 24px;
     color: white;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
   }
   .design-card-container {
     display: grid;
@@ -263,7 +263,6 @@ ul {
   font-weight: 300;
   line-height: 38px;
   color: white;
-  padding-bottom: 20px;
 }
 
 .video-grid {
@@ -279,7 +278,7 @@ ul {
 }
 
 .video-card p {
-  margin-top: 8px;
+  margin-top: 16px;
   font-family: "Fredoka", sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -296,6 +295,11 @@ ul {
     font-size: 24px;
     line-height: 36px;
   }
+  .video-card p {
+    font-family: "Fredoka", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+  }
 }
 /* ------------------- resposive mobile -------------------- */
 
@@ -305,18 +309,16 @@ ul {
   }
   .video-section h2 {
     font-family: "Playfair Display", serif;
-    font-size: 18px;
-    line-height: 30px;
-    padding-bottom: 20px;
+    font-size: 20px;
+    line-height: 24px;
   }
   .video-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 24px;
-    cursor: pointer;
   }
   .video-card p {
-    margin-top: 8px;
+    margin-top: 10px;
     font-family: "Fredoka", sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -347,14 +349,14 @@ ul {
 }
 .footer-item p {
   font-family: "Fredoka", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #3bc1a8;
   font-weight: 400;
   margin-bottom: 10px;
 }
 .footer-item h4 {
   font-family: "Playfair Display", serif;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
   font-weight: 400;
   margin-bottom: 10px;
