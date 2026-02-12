@@ -284,7 +284,7 @@ ul {
   font-size: 16px;
   font-weight: 300;
   color: white;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 /* ------------------- resposive Tablet -------------------- */
@@ -301,6 +301,7 @@ ul {
     font-family: "Fredoka", sans-serif;
     font-size: 18px;
     font-weight: 400;
+    padding-bottom: 30px;
   }
 }
 /* ------------------- resposive mobile -------------------- */
@@ -325,6 +326,7 @@ ul {
     font-size: 14px;
     font-weight: 400;
     color: white;
+    padding-bottom: 20px;
   }
 }
 /* ------------------- Footer -------------------- */
