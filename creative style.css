@@ -315,6 +315,13 @@ ul {
     gap: 24px;
     cursor: pointer;
   }
+  .video-card p {
+    margin-top: 8px;
+    font-family: "Fredoka", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+  }
 }
 /* ------------------- Footer -------------------- */
 

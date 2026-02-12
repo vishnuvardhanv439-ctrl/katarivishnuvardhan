@@ -84,6 +84,7 @@ ul {
 .primary-btn a {
   font-family: "Fredoka", sans-serif;
   font-size: 14px;
+  font-weight: 400;
   text-decoration: none;
   color: black;
 }
@@ -412,9 +413,9 @@ ul {
   }
   .card-item p {
     font-family: "Fredoka", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 18px;
   }
 }
 
