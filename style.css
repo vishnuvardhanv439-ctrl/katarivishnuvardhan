@@ -323,7 +323,8 @@ ul {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 20px;
+  padding: 16px;
+  border-radius: 10px;
 }
 .card-item h3 {
   font-family: "Playfair Display", serif;
@@ -333,9 +334,9 @@ ul {
 }
 .card-item p {
   font-family: "Fredoka", sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
-  line-height: 22px;
+  line-height: 20px;
   color: white;
 }
 
@@ -374,8 +375,8 @@ ul {
   }
   .card-item p {
     font-family: "Fredoka", sans-serif;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
   }
 }
 /* ------------------- resposive mobile -------------------- */
@@ -424,6 +425,9 @@ ul {
 .My-Work-Container {
   padding: 100px;
 }
+.Header {
+  padding-right: 350px;
+}
 
 .Header h3 {
   font-family: "Playfair Display", serif;
@@ -454,6 +458,7 @@ ul {
   position: relative;
   overflow: hidden;
   cursor: pointer;
+  border-radius: 20px;
 }
 
 .Item-Link {
@@ -581,6 +586,9 @@ ul {
   .My-Work-Container {
     padding: 100px 50px;
   }
+  .Header {
+    padding-right: 150px;
+  }
   .Header h3 {
     font-family: "Playfair Display", serif;
     font-size: 24px;
@@ -649,6 +657,9 @@ ul {
 @media (min-width: 320px) and (max-width: 500px) {
   .My-Work-Container {
     padding: 50px 20px;
+  }
+  .Header {
+    padding-right: 20px;
   }
   .Header h3 {
     font-family: "Playfair Display", serif;

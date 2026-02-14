@@ -196,7 +196,7 @@ ul {
   font-family: "Fredoka", sans-serif;
   font-size: 18px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 /* ---------- Tablet resposive ---------- */
@@ -254,7 +254,7 @@ ul {
 
 .experience-container {
   height: auto;
-  padding: 100px;
+  padding: 50px 100px;
 }
 .experience-container h1 {
   padding: 30px 0;
