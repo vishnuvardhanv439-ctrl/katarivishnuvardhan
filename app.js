@@ -82,23 +82,23 @@ document.addEventListener("DOMContentLoaded", () => {
 const video = document.getElementById("portfolioVideo");
 video.addEventListener("contextmenu", (e) => e.preventDefault());
 
-// ================= Scroll Reveal Animation =================
+// // ================= Scroll Reveal Animation =================
 
 document.addEventListener("DOMContentLoaded", () => {
   const reveals = document.querySelectorAll(
-    ".profile, .heading-section, .head-section, .card-item, .Item, .quote h3, .work-item-container, .design-card, .video-card",
+    ".profile, .heading-section, .head-section, .card-item, .Item, .quote h1, .work-item-container, .design-card, .video-card",
   );
 
   reveals.forEach((el, index) => {
     el.classList.add("reveal");
 
     // stagger automatically
-    const delay = index % 4;
+    const delay = (index % 4) + 1; // start from delay-1
     el.classList.add(`delay-${delay}`);
   });
 
   const observer = new IntersectionObserver(
-    (entries) => {
+    (entries, observer) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           entry.target.classList.add("show");
@@ -107,9 +107,12 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     },
     {
-      threshold: 0.3,
+      threshold: 0.15,
+      rootMargin: "0px 0px -80px 0px",
     },
   );
 
-  reveals.forEach((el) => observer.observe(el));
+  reveals.forEach((el) => {
+    observer.observe(el);
+  });
 });
