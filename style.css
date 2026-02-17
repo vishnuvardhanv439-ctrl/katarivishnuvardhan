@@ -80,6 +80,10 @@ ul {
   background-color: yellow;
   padding: 8px 32px;
   border-radius: 60px;
+  transition: all 0.3s ease;
+}
+.primary-btn:hover {
+  background-color: rgb(227, 227, 6);
 }
 .primary-btn a {
   font-family: "Fredoka", sans-serif;
@@ -307,6 +311,12 @@ ul {
   color: black;
   padding: 8px 16px;
   background-color: white;
+  transition: all 0.3s ease;
+}
+
+.head-section a:hover {
+  background-color: rgb(225, 225, 225);
+  color: black;
 }
 
 .Service-card-container {
